@@ -53,12 +53,13 @@ a {
     display: inline-block;
     position: absolute;
     z-index: 4;
+    text-shadow: 0.7px 0.7px 1px #ffffff;
 }
 .next {
-    margin: 5em 31em;
+    margin: 5em 33em;
 }
 .previous {
-    margin: 18em 8em;
+    margin: 18em 7em;
     color: rgba(72, 168, 150, .7);
 }
 /* @media (min-width: 1144px){
