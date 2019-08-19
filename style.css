@@ -4,7 +4,6 @@ html {
 body {
     height: 100%;
     margin: 0;
-    /* position: relative; */
 }
 * {
     font-size: 16px;
@@ -19,81 +18,50 @@ body {
     position: relative;
 }
 img {
-    width: 15em;
-    height: 10em;
+    width: 70em;
+    height: 35em;
+    margin-left:-35em;
+    margin-top:-17.5em;
+    /* width: 15em;
+    height: 10em; */
+    /* margin-left:-7.5em;
+    margin-top:-5em;*/
     position: absolute;
     left:50%;
     top:50%;
     z-index: 3;
-    margin-left:-7.5em;
-    margin-top:-5em;
     -webkit-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
 }
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
-    margin: 11em 2em;
+    font-size: 7rem;
+    margin: 3em 2em;
+    /* font-size: 2rem;
+    margin: 11em 2em; */
     color: rgba(72, 168, 150, .35);
     display: inline-block;
     position: absolute;
     z-index: 4;
 }
-.next {
+a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: rgba(72, 168, 150, .5);
     display: inline-block;
     position: absolute;
-    margin: 18em 13em;
     z-index: 4;
 }
-@media (min-width: 450px){
-    img {
-        width: 25em;
-        height: 15em;
-        margin-left:-12.5em;
-        margin-top:-7.5em;
-    }
-    h1 {
-        font-size: 3rem;
-        margin: 7em 3em;
-    }
-    .next {
-        margin: 17em 22em;
-    }
+.next {
+    margin: 5em 31em;
 }
-@media (min-width: 750px){
-    img {
-        width: 35em;
-        height: 20em;
-        margin-left:-15em;
-        margin-top:-10em;
-    }
-    h1 {
-        font-size: 4rem;
-        margin: 5em 3.5em;
-    }
-    .next {
-        font-size: 1.5rem;
-        margin: 9em 26em;
-    }
+.previous {
+    margin: 18em 9em;
+    color: rgba(72, 168, 150, .7);
 }
-@media (min-width: 1000px){
-    img {
-        width: 50em;
-        height: 30em;
-        margin-left:-25em;
-        margin-top:-15em;
-    }
-    .next {
-        font-size: 2rem;
-        margin: 5em 26em;
-    }
-}
-@media (min-width: 1144px){
+/* @media (min-width: 1144px){
     img {
         width: 70em;
         height: 35em;
@@ -108,20 +76,4 @@ h1 {
         font-size: 2rem;
         margin: 3em 31em;
     }
-}
-/* .container {
-    width: auto;
-    height: auto;
-} */
-
-/* .container {
-    width: 70em;
-    height: 35em;
-    max-width: 75%;
-    max-height: 75%;
-    position: relative;
-    left:50%;
-    top:50%;
-    margin-left:-35em;
-    margin-top:-17.5em;
-} */
+}  */
